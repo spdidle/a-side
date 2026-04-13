@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "label_dangling|241300|1079500|06fa44ec-881b-40dd-a999-fbebbecb00a0|00000000-0000-0000-0000-000000000000|/4689210d-3702-4f71-a790-ad3b060da840||",
+        ""
+      ],
+      [
+        "label_dangling|241300|1155700|edacdbd7-d0c1-49ea-893b-2019b9c3fa99|00000000-0000-0000-0000-000000000000|/4689210d-3702-4f71-a790-ad3b060da840||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -451,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "shinyu.kicad_pro",
+    "filename": "a-side.kicad_pro",
     "version": 3
   },
   "net_settings": {
