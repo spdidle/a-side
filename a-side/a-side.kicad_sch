@@ -781,24 +781,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -806,6 +805,24 @@
 				)
 			)
 			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -814,7 +831,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -823,7 +840,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -832,28 +849,100 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -862,11 +951,12 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -874,49 +964,194 @@
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start 1.905 1.778)
+					(end 3.175 3.048)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -925,34 +1160,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -961,16 +1178,238 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1644,13 +2083,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0 SD/MSPRO Card Reader Controller"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1665,6 +2103,16 @@
 				)
 			)
 			(property "MF" "Genesys"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1805,6 +2253,522 @@
 				)
 			)
 			(symbol "GL823K_0_0"
+				(rectangle
+					(start 5.08 -20.32)
+					(end 25.4 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "D0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "PMOS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "LED"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "GPIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GL823K_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GL823K"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "GL823K:SOP64P600X175-16N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_NAME" "Genesys"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Genesys"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "RS_PART_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "RS_PRICE/STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "HEIGHT" "1.75mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "GL823K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ARROW_PART_NUMBER" "GL823K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ARROW_PRICE/STOCK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "GL823K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GL823K_1_0_0"
 				(rectangle
 					(start 5.08 -20.32)
 					(end 25.4 2.54)
@@ -4095,6 +5059,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "still cant find the standard sd card receptacle for some reaosn\n"
+		(exclude_from_sim no)
+		(at -101.346 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f1e5405-2172-4a7f-80c9-e884a5758f91")
+	)
 	(text "GO DOWN ⬇︎ FOR SD CARD STUFF!!! SORRY!!! I RAN OUT OF SPACE\n"
 		(exclude_from_sim no)
 		(at 82.042 193.04 0)
@@ -4105,11 +5080,28 @@
 		)
 		(uuid "aa626975-75e9-4bff-956f-ef4c74d06388")
 	)
+	(text "footprinting...."
+		(exclude_from_sim no)
+		(at -77.978 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e393418c-a228-45c2-a92e-24acefed7613")
+	)
 	(junction
 		(at 163.83 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05babd76-fe2b-4c12-9bc1-eccf716a9de7")
+	)
+	(junction
+		(at 67.31 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09ba8c08-e7d9-41a9-a0be-d70d3fd905c8")
 	)
 	(junction
 		(at 149.86 243.84)
@@ -4130,16 +5122,22 @@
 		(uuid "4d5906bb-14d8-4617-88eb-bf68633a313b")
 	)
 	(junction
-		(at 53.34 46.99)
+		(at 58.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5de1c6a6-54e1-4010-a347-407def92f14a")
+		(uuid "5c28b67d-42f8-46a6-8965-6ee4f738d52c")
 	)
 	(junction
 		(at 146.05 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f993e04-965e-4cf4-94f8-0e55257a01db")
+	)
+	(junction
+		(at 78.74 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b19fa0-a97f-4bab-8f0f-0e707d988e36")
 	)
 	(junction
 		(at 67.31 243.84)
@@ -4154,10 +5152,22 @@
 		(uuid "920a6402-ae2e-4265-8fec-865538b5bb54")
 	)
 	(junction
-		(at 67.31 59.69)
+		(at 78.74 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc0e76fe-7124-4c9a-85a0-327aa93356f2")
+		(uuid "a7bbbcfd-ceba-4c31-910f-cc6e3bc0ce93")
+	)
+	(junction
+		(at 58.42 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c266fe9d-cf17-4200-beb5-24d2156ebed6")
+	)
+	(junction
+		(at 49.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a3e0f1-b420-4584-8862-9a1d579b864b")
 	)
 	(junction
 		(at 63.5 247.65)
@@ -4184,6 +5194,10 @@
 		(uuid "7821ba3d-56cb-4654-b9a4-3ed6654c4b2d")
 	)
 	(no_connect
+		(at 59.69 102.87)
+		(uuid "844ba4ab-d696-4b6e-ab37-496502a5c3f4")
+	)
+	(no_connect
 		(at 143.51 233.68)
 		(uuid "8457650d-902d-4ebc-bc60-abe5258d21b0")
 	)
@@ -4194,6 +5208,10 @@
 	(no_connect
 		(at 116.84 306.07)
 		(uuid "86e304e8-b708-4d64-a712-b31c1003c38e")
+	)
+	(no_connect
+		(at 59.69 100.33)
+		(uuid "89114e93-2eee-4c02-9d96-8ac9f107b3c2")
 	)
 	(no_connect
 		(at 147.32 285.75)
@@ -4295,6 +5313,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfdaddc-40b2-4632-b12c-ad46389bd3d4")
+	)
+	(wire
+		(pts
+			(xy 88.9 173.99) (xy 87.63 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb02d21-7b2b-4928-a4a5-79e6f8dd7203")
+	)
+	(wire
+		(pts
 			(xy 179.07 115.57) (xy 180.34 115.57)
 		)
 		(stroke
@@ -4302,16 +5340,6 @@
 			(type default)
 		)
 		(uuid "1496515e-104e-41ec-9942-24f5fb77214e")
-	)
-	(wire
-		(pts
-			(xy 67.31 62.23) (xy 67.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a39318a-8275-478c-b685-5732361c6c04")
 	)
 	(wire
 		(pts
@@ -4385,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 59.69) (xy 73.66 59.69)
+			(xy 67.31 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4405,13 +5433,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 67.31 59.69)
+			(xy 81.28 172.72) (xy 81.28 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d9d2163-7cf0-436a-8273-839e0f7cdfd0")
+		(uuid "2ea510ec-8ed6-4588-a1f5-dd765a3fea0e")
 	)
 	(wire
 		(pts
@@ -4485,6 +5513,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c3da9b-5790-4a11-a7b8-eba2bd7b2924")
+	)
+	(wire
+		(pts
 			(xy 102.87 233.68) (xy 113.03 233.68)
 		)
 		(stroke
@@ -4515,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 132.08) (xy 119.38 132.08)
+			(xy 104.14 132.08) (xy 104.14 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4555,6 +5593,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 172.72) (xy 81.28 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6938b7bf-bf05-40d3-a704-54887a0e3cce")
+	)
+	(wire
+		(pts
 			(xy 20.32 226.06) (xy 30.48 226.06)
 		)
 		(stroke
@@ -4565,23 +5613,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 59.69 46.99)
+			(xy 58.42 54.61) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "705d7651-00e1-40d5-b5e7-551b9a8e7148")
-	)
-	(wire
-		(pts
-			(xy 38.1 93.98) (xy 46.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70645771-6b3a-41c7-a225-16ff8b5b9738")
+		(uuid "710e06a7-9fa9-4576-977b-af629fa29a7a")
 	)
 	(wire
 		(pts
@@ -4645,33 +5683,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 46.99) (xy 74.93 46.99)
+			(xy 86.36 46.99) (xy 78.74 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c0cb638-f7e4-426c-aec1-73070d170bc9")
-	)
-	(wire
-		(pts
-			(xy 53.34 59.69) (xy 55.88 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6c3082-0354-4260-be9b-73716d8c98b3")
-	)
-	(wire
-		(pts
-			(xy 86.36 59.69) (xy 86.36 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1ecc16-1da2-460b-9ce9-6c87be6faff8")
 	)
 	(wire
 		(pts
@@ -4695,6 +5713,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 46.99) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c6f71e-afd5-4ab2-af07-2f591799e696")
+	)
+	(wire
+		(pts
 			(xy 179.07 107.95) (xy 180.34 107.95)
 		)
 		(stroke
@@ -4702,6 +5730,16 @@
 			(type default)
 		)
 		(uuid "9d5b8e1f-cd99-49ca-a3aa-8c650f2d9930")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea8f067-6c7e-4c55-93e5-0c833cc774d3")
 	)
 	(wire
 		(pts
@@ -4765,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 46.99) (xy 53.34 46.99)
+			(xy 46.99 46.99) (xy 49.53 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4792,16 +5830,6 @@
 			(type default)
 		)
 		(uuid "b31e7830-eb11-4e45-8ecf-2a464f174a69")
-	)
-	(wire
-		(pts
-			(xy 53.34 59.69) (xy 53.34 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74c47b2-518f-4c0d-9669-c3c6e3548ae2")
 	)
 	(wire
 		(pts
@@ -4835,13 +5863,33 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 67.31 59.69)
+			(xy 81.28 171.45) (xy 82.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baed9c3a-fafd-4960-b76f-e3c48b347369")
+	)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bbb25e94-ff28-40ea-880e-7bdb9aa4c7aa")
+	)
+	(wire
+		(pts
+			(xy 87.63 173.99) (xy 87.63 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc750029-389e-4d62-9e04-cc795c07bbe5")
 	)
 	(wire
 		(pts
@@ -4865,13 +5913,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 86.36 59.69)
+			(xy 58.42 46.99) (xy 59.69 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc82d91b-1653-42bf-ab80-6992ce6e4731")
+		(uuid "cc315441-ee86-4ca5-8fdb-e9ce8be5c6f1")
 	)
 	(wire
 		(pts
@@ -4885,13 +5933,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 46.99 91.44)
+			(xy 121.92 172.72) (xy 125.73 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3c48cab-60b6-4a9b-805e-0e3a8742993f")
+		(uuid "d41b685e-4211-404e-9112-850ae786bf5a")
 	)
 	(wire
 		(pts
@@ -4925,16 +5973,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 53.34 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1b7ce8-5c73-4a23-84e6-278c53af2131")
-	)
-	(wire
-		(pts
 			(xy 20.32 231.14) (xy 30.48 231.14)
 		)
 		(stroke
@@ -4952,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "e13ad728-6035-4463-b649-c0e9e2219d83")
+	)
+	(wire
+		(pts
+			(xy 78.74 54.61) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35353f2-81f4-4b46-a601-384142600241")
 	)
 	(wire
 		(pts
@@ -4975,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 171.45) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e984c76b-d460-447d-a602-a218984e50b1")
+	)
+	(wire
+		(pts
 			(xy 158.75 80.01) (xy 158.75 82.55)
 		)
 		(stroke
@@ -4992,6 +6050,36 @@
 			(type default)
 		)
 		(uuid "f38970f0-73d2-4852-8ffe-d11e19786089")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f656a055-22b2-4950-a2de-9096aab35a01")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ac1adf-ef32-4c0b-b4cc-18087caadc88")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8399c4-fd19-49fd-94ce-9371bbffca68")
 	)
 	(wire
 		(pts
@@ -5013,6 +6101,16 @@
 		)
 		(uuid "05e3a9d2-b728-448c-b098-8b2b018c498e")
 	)
+	(label "USB_DM"
+		(at 59.69 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0764a883-1a63-4615-a072-a2b425128b8d")
+	)
 	(label "USBA1_DM"
 		(at 128.27 113.03 180)
 		(effects
@@ -5023,15 +6121,15 @@
 		)
 		(uuid "19e5dd1a-5666-4d30-be3e-69f670e680bb")
 	)
-	(label "SD1_PWR"
-		(at 132.08 273.05 90)
+	(label "SD2_D2"
+		(at 116.84 288.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2439f85a-76ea-4860-bf98-88cee6986c54")
+		(uuid "21343e8a-0a5b-48bf-88d4-60bf28080713")
 	)
 	(label "SD1_D2"
 		(at 20.32 236.22 180)
@@ -5054,14 +6152,14 @@
 		(uuid "2c7e9e14-e7c9-4442-8a4d-7a280ca50dd8")
 	)
 	(label "USB_DM"
-		(at 38.1 93.98 180)
+		(at 59.69 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3164e6c8-ff9f-487b-82ef-91347df7d9bf")
+		(uuid "34ab4e6b-b3b7-438a-94de-49242dca0365")
 	)
 	(label "SD2_DP"
 		(at 128.27 107.95 180)
@@ -5072,6 +6170,26 @@
 			(justify right bottom)
 		)
 		(uuid "3d4a5992-fa0e-42ef-914b-166d923cc780")
+	)
+	(label "SD2_D0"
+		(at 116.84 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45845f3b-13fe-416b-a129-2581304f40d4")
+	)
+	(label "SD2_D1"
+		(at 116.84 285.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "470a2f27-4311-4445-8f5d-e8e17d43ad30")
 	)
 	(label "SD1_PWR"
 		(at 41.91 275.59 90)
@@ -5163,6 +6281,16 @@
 		)
 		(uuid "777b55fb-40e7-4f95-abdd-5f3e3203c808")
 	)
+	(label "USB_DP"
+		(at 59.69 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd8a07c-9250-4cf8-aff2-edd9763c4d0a")
+	)
 	(label "SD2_DM"
 		(at 143.51 220.98 0)
 		(effects
@@ -5182,6 +6310,16 @@
 			(justify left bottom)
 		)
 		(uuid "84d4a6ce-dd4b-46dd-8f32-881556b648c2")
+	)
+	(label "SD2_CLK"
+		(at 116.84 295.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86a8b959-9319-4286-907d-1a190e12f97e")
 	)
 	(label "USBA2_DP"
 		(at 179.07 95.25 0)
@@ -5353,6 +6491,16 @@
 		)
 		(uuid "bc20f9c2-282e-4dc5-bc6a-09f71f36a797")
 	)
+	(label "SD2_D3"
+		(at 116.84 290.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be253758-e3c0-4098-96bd-a75c05cb7851")
+	)
 	(label "SD1_DM"
 		(at 60.96 220.98 0)
 		(effects
@@ -5383,15 +6531,15 @@
 		)
 		(uuid "cf07aea5-8942-46d1-8181-2da17ae85c20")
 	)
-	(label "USB_DP"
-		(at 38.1 91.44 180)
+	(label "SD2_PWR"
+		(at 132.08 273.05 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d52fa52e-3653-44bd-af3e-eeabcb65989b")
+		(uuid "d319ecc3-33d3-4d5e-8f13-8f8eb9e4af46")
 	)
 	(label "SD2_CMD"
 		(at 102.87 231.14 180)
@@ -5443,6 +6591,16 @@
 		)
 		(uuid "eaf1cb1b-0c73-4a72-a2ef-3bb1de0912a0")
 	)
+	(label "SD2_CMD"
+		(at 116.84 298.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f110b16b-5a85-4fd0-bed1-8c0450f37434")
+	)
 	(label "SD2_D2"
 		(at 102.87 236.22 180)
 		(effects
@@ -5462,6 +6620,16 @@
 			(justify right bottom)
 		)
 		(uuid "f594cdbb-f049-4db2-b028-901f906b2350")
+	)
+	(label "USB_DP"
+		(at 59.69 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6ecbc61-62b1-4667-bdcf-5411b4989586")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5668,7 +6836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 62.23 0)
+		(at 67.31 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5677,7 +6845,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c251e0a-117a-406c-8d95-714ff5162b16")
 		(property "Reference" "#PWR02"
-			(at 67.31 68.58 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +6854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 67.31 0)
+			(at 67.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +6862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 62.23 0)
+			(at 67.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +6871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 62.23 0)
+			(at 67.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +6880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 62.23 0)
+			(at 67.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:SD_TE_2041021"
 			(at 50.8 299.212 0)
 			(effects
 				(font
@@ -5969,7 +7137,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 172.72 0)
+		(at 121.92 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5978,7 +7146,7 @@
 		(fields_autoplaced yes)
 		(uuid "145c310b-4f75-48f0-8117-62fb4bf88e60")
 		(property "Reference" "#PWR062"
-			(at 125.73 179.07 0)
+			(at 121.92 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +7155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 177.8 0)
+			(at 121.92 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +7163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +7172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +7181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 172.72 0)
+			(at 121.92 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +7407,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 59.69 90)
+		(at 58.42 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6247,7 +7415,7 @@
 		(dnp no)
 		(uuid "1f90908a-bbc4-4b4c-853d-2888af326a28")
 		(property "Reference" "C3"
-			(at 59.944 64.008 90)
+			(at 54.102 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +7423,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 59.944 66.548 90)
+			(at 51.562 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +7431,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 63.5 58.7248 0)
+			(at 59.3852 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +7440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 59.69 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +7449,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 59.69 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +7464,7 @@
 			(uuid "09dc85bb-2d6d-4353-848e-b32774866987")
 		)
 		(instances
-			(project ""
+			(project "a-side"
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "C3")
 					(unit 1)
@@ -6563,277 +7731,6 @@
 			(project ""
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GL823K:GL823K")
-		(at 113.03 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bbd1a19-03a1-4706-b597-99fb3d47ffc3")
-		(property "Reference" "IC2"
-			(at 128.27 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GL823K"
-			(at 128.27 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GL823K Model by Genesys Logic:SOP64P600X175-16N"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Genesys"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Genesys"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PART_NUMBER" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=eda"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PRICE/STOCK" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.75mm"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=snap"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GL823K"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "GL823K"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE/STOCK" ""
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GL823K"
-			(at 113.03 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "ffc0f0cc-ad60-4ab4-a060-078c9304675e")
-		)
-		(pin "2"
-			(uuid "2dc17a1f-a54c-4489-a1da-a78a9fec6eb6")
-		)
-		(pin "3"
-			(uuid "81eaf3cc-bb72-4563-9f5d-998b63fb83e5")
-		)
-		(pin "4"
-			(uuid "aa4f66ae-d2da-4f9d-9a48-098287c5b4df")
-		)
-		(pin "11"
-			(uuid "e9b67eee-2027-49f2-b283-8580584e4bb4")
-		)
-		(pin "12"
-			(uuid "3f69dcb8-c2a0-4bf3-befd-37c57c19cdaf")
-		)
-		(pin "15"
-			(uuid "3eef28c8-7d41-47f9-bffc-eafa4062c214")
-		)
-		(pin "13"
-			(uuid "99c87e08-8e79-4c05-a03f-7721fd2c5b99")
-		)
-		(pin "14"
-			(uuid "a0fca963-2d26-412f-81f3-747dda582c9c")
-		)
-		(pin "6"
-			(uuid "a38ef804-d72f-4e94-8688-d1b199e32823")
-		)
-		(pin "16"
-			(uuid "98d0bd36-b9cb-4dcd-8408-e31e5e43aec0")
-		)
-		(pin "1"
-			(uuid "84874661-d086-44d3-bd39-61ca4185b75e")
-		)
-		(pin "8"
-			(uuid "2dcce249-724a-4123-86a5-51777b093f6d")
-		)
-		(pin "9"
-			(uuid "dbda8be4-296c-4b00-b77d-e8c68d984b2c")
-		)
-		(pin "5"
-			(uuid "2eee8b44-112b-425f-ac9f-706f4dabbb2d")
-		)
-		(pin "7"
-			(uuid "4b3ef793-b3a0-4d72-950d-229d866e4b93")
-		)
-		(instances
-			(project "a-side"
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -7183,73 +8080,6 @@
 			(project ""
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f005f05-50d7-4d0e-b083-965654cdc481")
-		(property "Reference" "C18"
-			(at 77.724 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 77.724 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 81.28 58.7248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb0c4e41-cfd5-4bb6-bda3-3fc65f8b2475")
-		)
-		(pin "2"
-			(uuid "de7d6193-0498-4624-ba76-43b47cff04a5")
-		)
-		(instances
-			(project "a-side"
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7809,6 +8639,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 36.83 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6419cb4a-1bb4-4cd7-8dcd-8a39ce85db25")
+		(property "Reference" "#PWR038"
+			(at 36.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4897647e-e877-4f46-875c-3f843175c2fd")
+		)
+		(instances
+			(project "a-side"
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 72.39 231.14 0)
 		(unit 1)
@@ -8083,6 +8979,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 59.69 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72538310-643b-4adc-a55d-1ff01adb450f")
+		(property "Reference" "#PWR040"
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 63.5 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 59.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8309d93-0fae-46d0-af9e-fd512bcd0bc5")
+		)
+		(instances
+			(project "a-side"
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 204.47 105.41 270)
 		(unit 1)
@@ -8144,6 +9107,234 @@
 			(project ""
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G:GL850G")
+		(at 153.67 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76e6f652-96b5-4782-a72e-153c220e9266")
+		(property "Reference" "GL850G1"
+			(at 151.638 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GL850G"
+			(at 151.892 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GL850G Model:28SSOP"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Olimex Ltd."
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Programmable Logic IC Development Tools"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL850G/Olimex/view-part/?ref=snap"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "GL850G"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GL850G/Olimex/view-part/?ref=eda"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "4c47d3b3-76b1-4cba-8634-e692d79a4a0f")
+		)
+		(pin "13"
+			(uuid "244f0771-9800-4b8d-95c7-38d03aca34c4")
+		)
+		(pin "24"
+			(uuid "8ca946eb-377b-47e3-bf60-c8ca6fb50c28")
+		)
+		(pin "16"
+			(uuid "2e3198c7-fd5e-4962-a575-10752d7684d5")
+		)
+		(pin "4"
+			(uuid "7b231e0b-79e9-4793-b6f8-2f41a74daa9f")
+		)
+		(pin "10"
+			(uuid "444d0197-ab78-47b5-8c2a-c805c0c77dfd")
+		)
+		(pin "1"
+			(uuid "2abd7ee5-59ee-44e1-9524-150215a30e80")
+		)
+		(pin "18"
+			(uuid "1cf855ed-3ce5-4ff7-946d-33b7d54f8f16")
+		)
+		(pin "14"
+			(uuid "cfcffd3e-c7ec-4ca6-9ade-58971c0d7583")
+		)
+		(pin "12"
+			(uuid "cd93615a-75ad-4019-b69d-266864ba7e6c")
+		)
+		(pin "22"
+			(uuid "d0926f51-50f0-41de-97d2-85cdd85b4572")
+		)
+		(pin "17"
+			(uuid "fb62496c-9314-496d-81cf-64d40613ffae")
+		)
+		(pin "5"
+			(uuid "308d1a01-bf07-4635-a2fc-24fe477458c9")
+		)
+		(pin "11"
+			(uuid "751426f5-756d-4928-aaba-bf2ce046ca84")
+		)
+		(pin "15"
+			(uuid "23b4df86-c4e6-4976-8b71-dc17e605558d")
+		)
+		(pin "19"
+			(uuid "5cecb24d-22ae-47d4-91f5-882995d68678")
+		)
+		(pin "21"
+			(uuid "0b03ca0c-7e2d-47dd-a07d-71be4cddb36f")
+		)
+		(pin "20"
+			(uuid "1706d283-ea24-49fe-90a9-98f8127d95f7")
+		)
+		(pin "7"
+			(uuid "04ce9139-cb3c-49da-9009-715ca38ff97f")
+		)
+		(pin "8"
+			(uuid "ae9ba532-c1c3-4920-98fb-ff3992f82987")
+		)
+		(pin "9"
+			(uuid "e22089e6-b858-4003-8582-ea820a4b6e10")
+		)
+		(pin "2"
+			(uuid "37dff56a-a081-4c28-8274-4085fbabe66a")
+		)
+		(pin "27"
+			(uuid "107d5a7c-3da8-4ce8-9648-bc4237fbe992")
+		)
+		(pin "25"
+			(uuid "a7706c4a-fffc-4aa2-b30f-eef286d3b82e")
+		)
+		(pin "28"
+			(uuid "b727cc8f-c2e1-4fe4-8a04-d35fd56b8205")
+		)
+		(pin "26"
+			(uuid "48a4bfd0-1c05-40e6-8e6a-5754f4237f97")
+		)
+		(pin "6"
+			(uuid "a1c902d1-a12d-4d2d-bd33-2b1033377ea4")
+		)
+		(pin "3"
+			(uuid "13d0a306-42a4-4aeb-9087-0930b958d622")
+		)
+		(instances
+			(project ""
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "GL850G1")
 					(unit 1)
 				)
 			)
@@ -8417,7 +9608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 171.45 0)
+		(at 88.9 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8426,7 +9617,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d20413c-686b-45cb-94d1-eba0ea8e7f5e")
 		(property "Reference" "#PWR059"
-			(at 85.09 177.8 0)
+			(at 88.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +9626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 176.53 0)
+			(at 88.9 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +9634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 171.45 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +9643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 171.45 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +9652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 171.45 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,302 +10072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GL850G:GL850G")
-		(at 153.67 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cbe3d9f-d053-4f1c-9ac8-2a5311352c1e")
-		(property "Reference" "GL850G1"
-			(at 163.2586 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GL850G"
-			(at 163.2586 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "GL850G Model:28SSOP"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Olimex Ltd."
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Programmable Logic IC Development Tools"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL850G/Olimex/view-part/?ref=snap"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GL850G"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GL850G/Olimex/view-part/?ref=eda"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "85d71a3c-3f3c-4f30-9d59-509165ce58bb")
-		)
-		(pin "4"
-			(uuid "770e83c5-284c-4b11-ae71-4548b4a66f68")
-		)
-		(pin "19"
-			(uuid "239604f9-d3ce-41eb-a516-58936c7022c5")
-		)
-		(pin "21"
-			(uuid "a7b8e059-6aa2-4d26-8283-1cd6b9cb2597")
-		)
-		(pin "20"
-			(uuid "5e155c7b-da79-4656-81cb-710c8b44344f")
-		)
-		(pin "22"
-			(uuid "66f9f4b0-29a0-4eaa-9310-52d6198762a0")
-		)
-		(pin "12"
-			(uuid "f02ede0c-7ae1-4301-825e-a91c72dff87e")
-		)
-		(pin "11"
-			(uuid "590482f3-f8fe-41e5-9d78-ea7813193b67")
-		)
-		(pin "17"
-			(uuid "aa06cde2-b6bd-488b-bab5-20057a4ea047")
-		)
-		(pin "1"
-			(uuid "ccad429b-9ce9-48d0-a650-ab466568da09")
-		)
-		(pin "18"
-			(uuid "9bde08d4-eb36-44db-ace0-9ae2a4878b09")
-		)
-		(pin "5"
-			(uuid "e3c95d7b-f4a2-43ae-aa9c-997095d8783f")
-		)
-		(pin "13"
-			(uuid "14bf5956-e90b-473f-8444-0cbfd3837bb1")
-		)
-		(pin "10"
-			(uuid "cc58fbea-3479-4a0a-a5bc-df82141a3f3d")
-		)
-		(pin "16"
-			(uuid "aa1208b4-1513-41b3-b48f-e23676dbb32b")
-		)
-		(pin "15"
-			(uuid "550ad847-ecd7-4914-9a04-d68bd723616a")
-		)
-		(pin "23"
-			(uuid "8c49af99-f830-4d7e-bae7-4ce205c60a29")
-		)
-		(pin "24"
-			(uuid "2bcd9ebe-b427-46dc-963a-de749730b959")
-		)
-		(pin "7"
-			(uuid "030f8156-7b78-4717-900c-08cfd1c9ae1c")
-		)
-		(pin "6"
-			(uuid "3dda96b3-ab27-4348-aae7-507edf80912c")
-		)
-		(pin "9"
-			(uuid "32272a56-5aa2-4f62-be86-7026ead8511e")
-		)
-		(pin "8"
-			(uuid "36cca374-5b5f-4a6b-b029-d5d20f94e765")
-		)
-		(pin "3"
-			(uuid "a4ef1174-5529-475b-b04c-15d25c0dc736")
-		)
-		(pin "2"
-			(uuid "f1644828-f258-4a09-9c65-97c5ccdd63cf")
-		)
-		(pin "28"
-			(uuid "432e6a42-7977-4843-a0f1-6d1b2902a8ca")
-		)
-		(pin "27"
-			(uuid "488b6db8-cc42-4009-9ce1-1aad7cd5836e")
-		)
-		(pin "26"
-			(uuid "783eb2b0-c50b-4c18-ab0a-4a7764e41a2e")
-		)
-		(pin "25"
-			(uuid "dd887014-152f-495e-9820-b6d93aa4de45")
-		)
-		(instances
-			(project ""
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "GL850G1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d282735-e086-4b7a-9786-43e1fa420c43")
-		(property "Reference" "#PWR039"
-			(at 40.64 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22ccce7e-8f2d-4c22-b9e8-d5843f55b7be")
-		)
-		(instances
-			(project ""
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 228.6 90)
 		(unit 1)
@@ -9239,277 +10134,6 @@
 			(project "a-side"
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GL823K:GL823K")
-		(at 30.48 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90441abb-a025-4892-a388-8fe6e05d76de")
-		(property "Reference" "IC1"
-			(at 45.72 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GL823K"
-			(at 45.72 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GL823K Model by Genesys Logic:SOP64P600X175-16N"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Genesys"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Genesys"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PART_NUMBER" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=eda"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RS_PRICE/STOCK" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.75mm"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=snap"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "GL823K"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PART_NUMBER" "GL823K"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW_PRICE/STOCK" ""
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GL823K"
-			(at 30.48 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "0e036b24-9f04-4607-86db-909ae051b536")
-		)
-		(pin "2"
-			(uuid "55d401ca-378e-4aec-af18-9f730b6d1020")
-		)
-		(pin "3"
-			(uuid "04f04414-2dc0-4799-8cbf-367c58c4cc25")
-		)
-		(pin "4"
-			(uuid "1fdb8af7-f2d3-450f-8937-1c70f45a513f")
-		)
-		(pin "11"
-			(uuid "de63ebc2-eef2-4f9f-8627-e7aa8dc5af8f")
-		)
-		(pin "12"
-			(uuid "c8c88448-962f-461c-b551-147a51fef3a7")
-		)
-		(pin "15"
-			(uuid "c82ae6a0-734c-4c90-be42-de99864c5998")
-		)
-		(pin "13"
-			(uuid "f83005f5-57ec-4d71-9e9f-161240dcf979")
-		)
-		(pin "14"
-			(uuid "76518db2-dec2-4989-bcd9-a62cd621c2f2")
-		)
-		(pin "6"
-			(uuid "7246dde4-e646-4461-911b-8491d3704324")
-		)
-		(pin "16"
-			(uuid "83441332-2a93-425b-86cc-4dd4a134e220")
-		)
-		(pin "1"
-			(uuid "e1e49ebf-76a4-4e31-9c1b-21a1853f330c")
-		)
-		(pin "8"
-			(uuid "d5d15157-0fbd-4ab5-9afd-cec846cb9595")
-		)
-		(pin "9"
-			(uuid "0440b333-57a7-4db7-abdb-b740f30a1ec1")
-		)
-		(pin "5"
-			(uuid "5f6a68a0-bdde-409e-9878-f1129448f892")
-		)
-		(pin "7"
-			(uuid "0917adbf-0368-4c35-b17a-ff93697c3f4b")
-		)
-		(instances
-			(project ""
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -9676,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:SD_TE_2041021"
 			(at 140.97 296.672 0)
 			(effects
 				(font
@@ -9704,43 +10328,43 @@
 			)
 		)
 		(pin "9"
-			(uuid "461410fa-1aae-49f3-aca2-54e69e984e49")
+			(uuid "461410fa-1aae-49f3-aca2-54e69e984e4a")
 		)
 		(pin "12"
-			(uuid "7675a056-4d77-40ab-9e21-1ae6378ff931")
+			(uuid "7675a056-4d77-40ab-9e21-1ae6378ff932")
 		)
 		(pin "3"
-			(uuid "094e20e3-2e6c-47d5-9c98-4aeb9ecb4aff")
+			(uuid "094e20e3-2e6c-47d5-9c98-4aeb9ecb4b00")
 		)
 		(pin "10"
-			(uuid "2da23b7f-978e-4c2d-95d6-174987e9c31b")
+			(uuid "2da23b7f-978e-4c2d-95d6-174987e9c31c")
 		)
 		(pin "7"
-			(uuid "4bb23882-3cc7-427e-baa0-58d6ef08a7b6")
+			(uuid "4bb23882-3cc7-427e-baa0-58d6ef08a7b7")
 		)
 		(pin "2"
-			(uuid "645841d6-4dc0-4759-85ae-b235b4971405")
+			(uuid "645841d6-4dc0-4759-85ae-b235b4971406")
 		)
 		(pin "6"
-			(uuid "20beed98-69be-4ae9-908e-0af587d377d6")
+			(uuid "20beed98-69be-4ae9-908e-0af587d377d7")
 		)
 		(pin "11"
-			(uuid "be01fa97-eb4b-4dc0-a0be-ad1872491464")
+			(uuid "be01fa97-eb4b-4dc0-a0be-ad1872491465")
 		)
 		(pin "8"
-			(uuid "9e6abce0-a9cc-4541-9ceb-dcffef74ec82")
+			(uuid "9e6abce0-a9cc-4541-9ceb-dcffef74ec83")
 		)
 		(pin "4"
-			(uuid "47a2d74f-5583-44b6-b103-092640cc0c26")
+			(uuid "47a2d74f-5583-44b6-b103-092640cc0c27")
 		)
 		(pin "13"
-			(uuid "619c92f1-18af-472f-8e27-485fe9021663")
+			(uuid "619c92f1-18af-472f-8e27-485fe9021664")
 		)
 		(pin "5"
-			(uuid "d4be4fb2-0c8b-4645-a055-18407895b70c")
+			(uuid "d4be4fb2-0c8b-4645-a055-18407895b70d")
 		)
 		(pin "1"
-			(uuid "a63d7e73-1914-4211-8d73-05a420f00772")
+			(uuid "a63d7e73-1914-4211-8d73-05a420f00773")
 		)
 		(instances
 			(project ""
@@ -10095,7 +10719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 171.45 0)
+		(at 77.47 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10104,7 +10728,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ee2b4d-66aa-4294-89a5-e872b9d2714b")
 		(property "Reference" "#PWR061"
-			(at 82.55 177.8 0)
+			(at 77.47 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +10737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 176.53 0)
+			(at 77.47 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 171.45 0)
+			(at 77.47 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 171.45 0)
+			(at 77.47 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 171.45 0)
+			(at 77.47 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,6 +11123,384 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 44.45 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dc2e87-5fff-44d2-a409-3906e7f44956")
+		(property "Reference" "J2"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "ebe0e36c-43b5-42d7-a68d-a762f8e2ae42")
+		)
+		(pin "A5"
+			(uuid "78acc6a6-805e-418d-ab7e-355151a4f30b")
+		)
+		(pin "B9"
+			(uuid "fa97f660-e1ce-4efa-b30b-eaae6cd22f66")
+		)
+		(pin "A6"
+			(uuid "b70cbe3e-93e8-4b9a-93f4-62d6c1854fcd")
+		)
+		(pin "A7"
+			(uuid "b071e514-967c-42a7-a4f6-7b53e6d24f59")
+		)
+		(pin "B7"
+			(uuid "ccac8b62-8bc4-4be5-83a0-d78d67707077")
+		)
+		(pin "B6"
+			(uuid "de84c123-5ba7-464a-ae78-13457550b945")
+		)
+		(pin "B4"
+			(uuid "0bc9eae9-dcdc-440d-8060-8610ebd2305b")
+		)
+		(pin "A9"
+			(uuid "54e9d8fa-e908-41a9-90a3-85a5dda88ea2")
+		)
+		(pin "A4"
+			(uuid "2b39e007-3b0d-499a-b3c4-56a600e75c6b")
+		)
+		(pin "B12"
+			(uuid "54e2a154-0572-4fba-8d2b-250f64019581")
+		)
+		(pin "B1"
+			(uuid "4652b54e-8049-41ad-ac1b-3f1aff674cab")
+		)
+		(pin "A12"
+			(uuid "7cd800ba-8e3d-4bcf-8090-eede7befaec1")
+		)
+		(pin "A1"
+			(uuid "809d40a0-1ff4-4f2e-9bce-4377d66a5e3d")
+		)
+		(pin "B5"
+			(uuid "f0d4b25f-e376-48eb-b359-2a94d24ab803")
+		)
+		(instances
+			(project ""
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL823K:GL823K")
+		(at 30.48 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4eb0a4d-1357-45c5-8c8f-7cf123e2f9b8")
+		(property "Reference" "IC1"
+			(at 45.72 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GL823K"
+			(at 45.72 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GL823K Model by Genesys Logic:SOP64P600X175-16N"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Genesys"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Genesys"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_PART_NUMBER" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=eda"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_PRICE/STOCK" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.75mm"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=snap"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "GL823K"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" "GL823K"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE/STOCK" ""
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GL823K"
+			(at 30.48 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "9bfd5d58-35df-44ce-a375-bdfda6acc72d")
+		)
+		(pin "11"
+			(uuid "f5716c14-bac8-4540-8903-ab79023844ed")
+		)
+		(pin "12"
+			(uuid "e8320434-651d-467f-be7f-92388540d3e6")
+		)
+		(pin "13"
+			(uuid "52135c00-75ee-49f7-9a2e-0d1ca8b08250")
+		)
+		(pin "14"
+			(uuid "38549531-11f2-4585-8876-bd207b82a6da")
+		)
+		(pin "15"
+			(uuid "85ad0064-f10e-4aec-8e81-4cccb0ebd65b")
+		)
+		(pin "16"
+			(uuid "09147751-35be-4dd5-a03d-22956ee081de")
+		)
+		(pin "8"
+			(uuid "7fae8d4c-2d8f-415a-b119-8af413ad9b90")
+		)
+		(pin "7"
+			(uuid "240047c7-66e5-4c9d-b2fe-98e2fae8cf8f")
+		)
+		(pin "6"
+			(uuid "17f53d6b-1f11-4c9e-919a-58a5f9c799d5")
+		)
+		(pin "5"
+			(uuid "1dfd786a-555f-4d5c-9f95-808734207d27")
+		)
+		(pin "4"
+			(uuid "0dc9d510-9661-40b7-a7f6-01776ca50dba")
+		)
+		(pin "3"
+			(uuid "cbebc37e-9404-47ae-8137-a29fcb0cd776")
+		)
+		(pin "2"
+			(uuid "e59584ff-6b30-4399-b704-16cf59380abe")
+		)
+		(pin "9"
+			(uuid "54fda879-9398-48b8-9180-49d9ed868bd9")
+		)
+		(pin "1"
+			(uuid "a3980e18-69cc-4ce6-bdd5-a32da87f5b52")
+		)
+		(instances
+			(project ""
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 92.71 83.82 180)
 		(unit 1)
@@ -10835,7 +11837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 132.08 0)
+		(at 104.14 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10844,7 +11846,7 @@
 		(fields_autoplaced yes)
 		(uuid "bebe8e41-4ad5-424a-b40f-cc264779a9d0")
 		(property "Reference" "#PWR037"
-			(at 119.38 138.43 0)
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +11855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 137.16 0)
+			(at 104.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,7 +11863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 132.08 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +11872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 132.08 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10879,7 +11881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 132.08 0)
+			(at 104.14 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,6 +12099,278 @@
 			(project ""
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GL823K_1")
+		(lib_id "GL823K:GL823K")
+		(at 113.03 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c887a35f-971b-4a50-be11-777202d27528")
+		(property "Reference" "IC2"
+			(at 128.27 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GL823K"
+			(at 128.27 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GL823K Model by Genesys Logic:SOP64P600X175-16N"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Genesys"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Genesys"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "USB 2.0 SD/MSPRO Card Reader Controller"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_PART_NUMBER" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=eda"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RS_PRICE/STOCK" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.75mm"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GL823K/Genesys+Logic/view-part/?ref=snap"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "GL823K"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" "GL823K"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE/STOCK" ""
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GL823K"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f8a5cd-f099-44cc-b9ce-281cf32b9920")
+		)
+		(pin "16"
+			(uuid "a134274b-a030-4b7e-98d0-f1b53fd03c66")
+		)
+		(pin "6"
+			(uuid "f78a6526-228a-4274-b4a0-dc8e59bf75bd")
+		)
+		(pin "7"
+			(uuid "4675732f-6e72-4131-8c57-9f93ba3f50a1")
+		)
+		(pin "8"
+			(uuid "8e72f329-f02f-471c-b701-f48e1e31adbf")
+		)
+		(pin "9"
+			(uuid "9eaba651-e580-4497-b129-9869f08e75b4")
+		)
+		(pin "10"
+			(uuid "47569ef3-00b6-4abf-9543-c5877d3a20bb")
+		)
+		(pin "11"
+			(uuid "ae9c39db-371c-4deb-9ac6-dff131233099")
+		)
+		(pin "12"
+			(uuid "a10a7c84-2f4a-4055-9bcc-3704ab11cd57")
+		)
+		(pin "13"
+			(uuid "10830a8a-4d39-4c98-9198-c1e75a7d5899")
+		)
+		(pin "14"
+			(uuid "1b3670bb-57eb-458f-bb6f-1d8708a4b3de")
+		)
+		(pin "15"
+			(uuid "e8dce6d6-ae36-4ab4-abe7-e3f7244eeaf5")
+		)
+		(pin "5"
+			(uuid "0ff3eb47-0a8a-4c47-81e1-0fab9b8218a8")
+		)
+		(pin "4"
+			(uuid "cdf901b6-e0d1-4d59-8814-2162c7e85410")
+		)
+		(pin "3"
+			(uuid "2b93017d-250d-4232-88c1-26816175a474")
+		)
+		(pin "2"
+			(uuid "93afd0e0-37bb-46b3-a466-976b26570ce6")
+		)
+		(instances
+			(project ""
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -11504,82 +12778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 52.07 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2984d7e-3078-4eba-a5f4-2845f7a1e6f4")
-		(property "Reference" "J1"
-			(at 54.61 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 54.61 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bc2b2ff-233d-43ce-a0e0-05632494c1ff")
-		)
-		(pin "3"
-			(uuid "fd23efec-b7fb-4a21-9bf3-5af01f07c362")
-		)
-		(pin "2"
-			(uuid "7650a853-315f-43df-81d9-37537666a5b4")
-		)
-		(pin "4"
-			(uuid "aff971d5-d902-4db3-9174-09f05100fc24")
-		)
-		(instances
-			(project ""
-				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 176.53 57.15 0)
 		(unit 1)
@@ -11784,6 +12982,73 @@
 			(project ""
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de450624-e917-4679-8c7c-16604f646edd")
+		(property "Reference" "C18"
+			(at 83.058 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 85.598 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 77.7748 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc577e1-5ebf-45e5-9b03-37a323da6fd2")
+		)
+		(pin "2"
+			(uuid "5e8310eb-dce9-4250-b47d-6d82cf87f9c6")
+		)
+		(instances
+			(project "a-side"
+				(path "/4689210d-3702-4f71-a790-ad3b060da840"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12469,7 +13734,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 52.07 0)
+		(at 49.53 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12478,7 +13743,7 @@
 		(fields_autoplaced yes)
 		(uuid "f51e5e0b-7af7-4a87-b9a4-01698dd3e8b4")
 		(property "Reference" "C1"
-			(at 57.15 50.7999 0)
+			(at 53.34 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +13752,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 57.15 53.3399 0)
+			(at 53.34 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12496,7 +13761,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 54.3052 55.88 0)
+			(at 50.4952 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +13770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,7 +13779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 52.07 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,17 +14016,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 46.99 86.36 90)
+		(lib_id "power:GND")
+		(at 44.45 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc2c3d38-ca39-4a70-ab2b-5ae3f8ce0309")
-		(property "Reference" "#PWR038"
-			(at 50.8 86.36 0)
+		(uuid "fec76ef0-db76-4ee2-b8af-8785af42be0f")
+		(property "Reference" "#PWR041"
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,17 +14034,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 43.18 86.3599 90)
+		(property "Value" "GND"
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 86.36 0)
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +14052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 86.36 0)
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,8 +14060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 46.99 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,12 +14070,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd571ff8-805e-4a4a-b55f-b3a6c20ed837")
+			(uuid "d7438a30-9de9-4d73-a6b3-66c8b8eb1241")
 		)
 		(instances
-			(project ""
+			(project "a-side"
 				(path "/4689210d-3702-4f71-a790-ad3b060da840"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
