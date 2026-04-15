@@ -5041,102 +5041,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 72.39 146.05)
-		(end 147.32 186.69)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0de423c5-d8e9-4158-bdd3-0706179ab423)
-	)
-	(rectangle
-		(start -1.27 208.915)
-		(end 181.61 262.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 219e327d-dac4-473d-bf78-0db3c7ed4c25)
-	)
-	(rectangle
-		(start 120.015 39.37)
-		(end 200.66 88.265)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2d8c8955-324e-4fc2-aaff-4ae3a4d73165)
-	)
-	(rectangle
-		(start 30.48 33.655)
-		(end 102.235 64.135)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 693c1489-9706-4b9d-8e9d-d74c47cecab7)
-	)
-	(rectangle
-		(start 1.27 264.795)
-		(end 153.67 322.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7de50e89-5407-45a4-b235-5a22778f02f4)
-	)
-	(rectangle
-		(start 15.875 67.945)
-		(end 83.82 124.46)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b5068248-ce23-4a4d-9ec8-9598dbe8c91c)
-	)
-	(rectangle
-		(start 47.625 127.635)
-		(end 86.995 144.145)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b6e8c0ca-9570-443a-a39e-db8a8d57b2a6)
-	)
-	(rectangle
-		(start 18.415 143.51)
-		(end 67.31 187.96)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid dbd9dbcf-91b4-4443-a9f7-4d6d1b16e6ce)
-	)
 	(text "IF ITS A CAPACITOR with a pwr label on one side and NOT directly connected to the pin it's porbably for decoupling  !!!!!!!!"
 		(exclude_from_sim no)
 		(at 217.932 25.654 0)
@@ -5147,6 +5051,16 @@
 		)
 		(uuid "22c8695d-4870-4e78-9be0-1a9d20c04f21")
 	)
+	(text "decoupl\n"
+		(exclude_from_sim no)
+		(at 38.354 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e6fc9a3-06f6-4ff2-99b3-57e71f7cb646")
+	)
 	(text "GO DOWN ⬇︎ FOR SD CARD STUFF!!! SORRY!!! I RAN OUT OF SPACE\n"
 		(exclude_from_sim no)
 		(at 82.042 204.216 0)
@@ -5156,6 +5070,16 @@
 			)
 		)
 		(uuid "aa626975-75e9-4bff-956f-ef4c74d06388")
+	)
+	(text "pwr flag cuz kicad mad if i dont"
+		(exclude_from_sim no)
+		(at 67.564 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bca1e9e6-705b-4cf1-bf99-985da9b5fe7c")
 	)
 	(junction
 		(at 156.21 227.33)
@@ -5455,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 195.58 106.68)
+			(xy 181.61 106.68) (xy 186.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5605,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 196.85 105.41)
+			(xy 180.34 101.6) (xy 186.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5662,16 +5586,6 @@
 			(type default)
 		)
 		(uuid "692bb405-53a8-4c84-be3f-e6dcdfd9a256")
-	)
-	(wire
-		(pts
-			(xy 77.47 172.72) (xy 81.28 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6938b7bf-bf05-40d3-a704-54887a0e3cce")
 	)
 	(wire
 		(pts
@@ -5915,16 +5829,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 195.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31e7830-eb11-4e45-8ecf-2a464f174a69")
-	)
-	(wire
-		(pts
 			(xy 135.89 227.33) (xy 156.21 227.33)
 		)
 		(stroke
@@ -6015,16 +5919,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 110.49) (xy 196.85 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b9bd99-8be7-43c4-8fdd-c9c1e21494ef")
-	)
-	(wire
-		(pts
 			(xy 121.92 172.72) (xy 125.73 172.72)
 		)
 		(stroke
@@ -6035,7 +5929,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 180.34 105.41)
+			(xy 180.34 107.95) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7056,7 +6950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Card:SD_TE_2041021"
+		(property "Footprint" "Connector_Card:SD_Card_Device_16mm_SlotDepth"
 			(at 43.18 297.942 0)
 			(effects
 				(font
@@ -7401,7 +7295,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 110.49 90)
+		(at 190.5 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7409,7 +7303,7 @@
 		(dnp no)
 		(uuid "1806918b-6771-4277-b975-1d31134a07d8")
 		(property "Reference" "R6"
-			(at 200.66 113.03 90)
+			(at 190.5 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7311,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 200.66 115.57 90)
+			(at 190.5 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7319,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 200.66 112.268 90)
+			(at 190.5 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 110.49 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7337,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 110.49 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8089,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0af2ec81-5d4b-4ad4-86f1-6fef7a6f19d5")
+			(uuid "0af2ec81-5d4b-4ad4-86f1-6fef7a6f19d6")
 		)
 		(instances
 			(project ""
@@ -8685,7 +8579,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 110.49 270)
+		(at 194.31 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8694,7 +8588,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a16a2ab-0e18-40c1-8ff1-a7a35c64dd20")
 		(property "Reference" "#PWR035"
-			(at 200.66 110.49 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8597,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 208.28 110.4899 90)
+			(at 198.12 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 110.49 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 110.49 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 110.49 0)
+			(at 194.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9268,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 105.41 270)
+		(at 194.31 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,7 +9277,7 @@
 		(fields_autoplaced yes)
 		(uuid "75bc1e80-2492-40fe-a7aa-880ac5cd1154")
 		(property "Reference" "#PWR034"
-			(at 200.66 105.41 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9286,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 208.28 105.4099 90)
+			(at 198.12 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 105.41 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +9304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 105.41 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 105.41 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9617,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "785a7932-f405-42f8-b02f-8ddfef400bbb")
+			(uuid "785a7932-f405-42f8-b02f-8ddfef400bbc")
 		)
 		(instances
 			(project ""
@@ -10627,7 +10521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.7152 157.48 0)
 			(effects
 				(font
@@ -10763,7 +10657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Card:SD_TE_2041021"
+		(property "Footprint" "Connector_Card:SD_Card_Device_16mm_SlotDepth"
 			(at 133.35 295.402 0)
 			(effects
 				(font
@@ -11182,7 +11076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 172.72 0)
+		(at 81.28 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11191,7 +11085,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ee2b4d-66aa-4294-89a5-e872b9d2714b")
 		(property "Reference" "#PWR061"
-			(at 77.47 179.07 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,7 +11094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 177.8 0)
+			(at 81.28 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 172.72 0)
+			(at 81.28 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +11111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 172.72 0)
+			(at 81.28 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 172.72 0)
+			(at 81.28 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 66.04 91.948 90)
 			(effects
 				(font
@@ -13789,7 +13683,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 105.41 90)
+		(at 190.5 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13798,7 +13692,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5c330b0-5d60-45d0-a2a1-c018577b3c02")
 		(property "Reference" "R5"
-			(at 200.66 99.06 90)
+			(at 190.5 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +13700,7 @@
 			)
 		)
 		(property "Value" "100kohm"
-			(at 200.66 101.6 90)
+			(at 190.5 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +13708,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 200.66 107.188 90)
+			(at 190.5 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13823,7 +13717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 105.41 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13832,7 +13726,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 105.41 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,7 +14249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 66.04 83.058 90)
 			(effects
 				(font
@@ -14383,10 +14277,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab3b4eb8-8611-42b3-b30b-ffd60627fca5")
+			(uuid "ab3b4eb8-8611-42b3-b30b-ffd60627fca6")
 		)
 		(pin "2"
-			(uuid "9c527bd9-888f-4931-8044-0959cd6d0cea")
+			(uuid "9c527bd9-888f-4931-8044-0959cd6d0ceb")
 		)
 		(instances
 			(project ""
@@ -14452,7 +14346,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d0350fd-c15a-40b7-9fb5-19569b6cd2a2")
+			(uuid "0d0350fd-c15a-40b7-9fb5-19569b6cd2a3")
 		)
 		(instances
 			(project ""
